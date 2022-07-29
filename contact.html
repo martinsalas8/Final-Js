@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;600&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="stylec.css">
+
+</head>
+<body>
+
+    <div>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <a class="navbar-brand text-light" href="./index.html">Spooky<span class="font-weight-bold"> Games</span></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class='bx bx-menu bx-flip-horizontal lead-xl text-light' style='color:#ffffff' ></i>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link text-light lead" href="./tricki.html">Tricki</a>
+                  </li>
+                  <li class="nav-item">
+                    <!-- <a class="nav-link text-light lead" href="#">Locations</a> -->
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light lead" href="./music.html">Music</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light lead" href="#">Contact us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light lead-xl" href="#"><i class='bx bx-menu bx-flip-horizontal' style='color:#ffffff' ></i></a>
+                  </li>
+                </ul>
+                <!-- <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form> -->
+              </div>
+            </div>
+          </nav>
+    </div>
+
+
+    <div id="overlay">
+       <div class="contener">
+        <form onsubmit="event.preventDefault(); validateForm()">
+            <h1>Contact us</h1>
+
+            <label for="name">Name: </label>
+            <input type="text" id="name" placeholder="Your name">
+            <small class="error"></small>
+
+            <label for="email">Name: </label>
+            <input type="text" id="email" placeholder="Your email">
+            <small class="error"></small>
+
+            <label for="message">Name: </label>
+            <textarea id="message" placeholder="Your message" rows="6"></textarea>
+            <small class="error"></small>
+
+            <div class="center">
+                <input type="submit" value="Send Message">
+                <p id="success"></p>
+            </div>
+       </form> 
+       </div>
+        
+    </div>
+
+
+
+    <script src="scriptc.js"></script>
+
+</body>
+</html>

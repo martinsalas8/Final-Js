@@ -1,0 +1,162 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Radio canada", sans-serif;
+
+}
+
+body{
+    background-color: black;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+}
+
+.header h1{
+    text-align: center;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 35px;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn{
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 75px;
+    margin: 2px;
+    width: 75px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: rgb(240, 240, 240);
+}
+
+.btn:disabled{
+    color: black;
+    cursor: no-drop;
+}
+
+.result{
+    text-align: center;
+}
+
+.reset{
+    text-align: center;
+}
+
+#reset {
+    border: 1px solid black;
+    cursor: pointer;
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px 20px;
+    font-size: 17px;
+    margin: 35px;
+    transition: all 0.1s ease-in-out;
+}
+
+#reset:hover{
+    color: white;
+    background-color: black;
+}
+
+
+body {
+    font-family: "Arial", sans-serif;
+    
+}
+
+section {
+    text-align: center;
+}
+
+.game--title {
+    font-size: 100px;
+    color: #d7a62f;
+    margin: 10px auto;
+}
+
+.game--container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 306px;
+    margin: 10px auto;
+    background-color: #11213a;
+    color: #04c0b2;
+}
+
+.cell {
+    font-family: "Permanent Marker", cursive;
+    width: 100px;
+    height: 100px;
+    box-shadow: 2px 2px 2px 2px #ecd7ba;
+    border: 2px solid #ecd7ba;
+    cursor: pointer;
+    line-height: 100px;
+    font-size: 60px;
+}
+
+.game--status {
+    font-size: 50px;
+    color: #d7a62f;
+    margin: 20px auto;
+}
+
+.game--restart {
+    background-color: #f7e4ac;
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+    color: #5586e2;
+    box-shadow: 2px 2px 2px 2px #d86c23;
+    border: 2px solid #d86c23;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
