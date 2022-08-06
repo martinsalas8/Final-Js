@@ -86,3 +86,7 @@ input[type="submit"]{
 .error-border{
     border-bottom: 1px solid red;
 }
+
+#success{
+    color: #28a745;
+}

@@ -87,17 +87,3 @@ function handleRestartGame() {
 document.querySelectorAll('.cell').forEach(cell => cell.addEventListener('click', handleCellClick));
 document.querySelector('.game--restart').addEventListener('click', handleRestartGame);
  
-//contact
-//get data
-
-const nameInput = document.querySelector("#name");
-const emailInput = document.querySelector("#email");
-const message = document.querySelector("#message");
-const success = document.querySelector("#success");
-const errorNodes = document.querySelectorAll(".error");
-
-//validate data
-function validateForm(){
-    console.log("Hello World");
-}
-
